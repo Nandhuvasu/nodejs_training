@@ -1,0 +1,30 @@
+# Logs
+logs
+tmp
+*.log
+npm-debug.log*
+#test
+test-results
+# Dependency directories
+node_modules
+.DS_Store
+
+*~
+
+# nyc coverage
+.nyc_output
+coverage
+
+uploads
+
+#ignore transpiled files
+transpiledsrc
+
+#ide directories
+.idea
+*.iml
+
+#build dir
+dist
+/docker/cassandra/data/
+/docker/kafka/data/
